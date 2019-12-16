@@ -72,4 +72,17 @@
       </plugins>
     </pluginManagement>
   </build>
+
+
+  <!--
+    publish artifacts to nexus
+  -->
+  <distributionManagement>
+
+    <repository>
+      <id>snapshots</id>
+
+      <url>http://localhost:8081/nexus/content/repositories/snapshots  </url>
+    </repository>
+  </distributionManagement>
 </project>
