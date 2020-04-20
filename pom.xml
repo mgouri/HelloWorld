@@ -7,7 +7,7 @@
   <groupId>hello</groupId>
   <artifactId>world</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <type>war</type>
+  <packaging>war</packaging>
 
   <name>world</name>
   <!-- FIXME change it to the project's website -->
